@@ -1,0 +1,171 @@
+/* ---------- Colors (change them here) ---------- */
+:root {
+    --orange: #F4934A;
+    --blue: #1D93BA;
+    --cream: #FCF8EE;
+    --red: #E8573F;
+    --pale-orange: #FEF1E1;
+    --text: #333333;
+}
+
+/* ---------- Page background pattern ---------- */
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--text);
+    background-color: #BDE8E2;
+    background-image: url('pattern.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* ---------- Header: orange top bar ---------- */
+.top-bar {
+    background-color: var(--orange);
+    border-bottom: 4px solid var(--blue);
+    padding: 40px 0 20px 0;
+}
+
+.top-bar-content {
+    width: 800px;
+    margin: 0 auto;
+    padding-left: 24px;
+}
+
+h1 {
+    margin: 0 0 16px 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    color: white;
+}
+
+/* ---------- Navigation ---------- */
+.nav-list {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list a {
+    display: block;
+    padding: 4px 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    background-color: white;
+    color: var(--orange);
+}
+
+/* ---------- Hero banner ---------- */
+.hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 480px;
+    border-bottom: 4px solid var(--blue);
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* ---------- Main content ---------- */
+main {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.lesson {
+    padding: 40px 48px 20px 48px;
+    background-color: var(--cream);
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    color: var(--blue);
+}
+
+.lesson h3 {
+    margin: 0 0 24px 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #F0D9B5;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+/* ---------- Code ---------- */
+code {
+    padding: 2px 8px;
+    border: 1px solid #F8D9B8;
+    border-radius: 4px;
+    background-color: var(--pale-orange);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    color: var(--red);
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* ---------- Links ---------- */
+a {
+    color: var(--blue);
+}
+
+/* ---------- "That's a wrap" box ---------- */
+.wrap-up {
+    margin-top: 36px;
+    padding: 36px 48px;
+    border-left: 8px solid var(--orange);
+    background-color: var(--blue);
+    color: white;
+}
+
+.wrap-up h3 {
+    margin: 0 0 12px 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.wrap-up p {
+    margin: 0;
+}
